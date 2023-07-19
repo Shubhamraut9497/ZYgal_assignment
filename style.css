@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.canvas__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.canvas__body > a{
+    cursor: pointer;
+    margin-top: 20px;
+    color:gray;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.canvas__body > a:hover{
+    color:blue;
+}
+.canvas__body > h1{
+    color:rgb(172, 98, 71);
+    
+}
